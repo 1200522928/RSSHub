@@ -5767,7 +5767,7 @@
         source:[ "/" ],
         target:"/devtrium/" } ] },
   "dgut.edu.cn":{ _name:"dgut",
-    jwb:[ { title:"东莞理工学院教务部通知公告",
+    jwb:[ { title:"教务部通知公告",
         docs:"https://docs.rsshub.app/routes/university",
         source:[ "/tzgg/" ],
         target:"/dgut/jwb/:type?" } ] },
