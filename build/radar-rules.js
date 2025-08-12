@@ -5766,7 +5766,7 @@
         docs:"https://docs.rsshub.app/routes/programming",
         source:[ "/" ],
         target:"/devtrium/" } ] },
-  "dgut.edu.cn":{ _name:"dgut",
+  "dgut.edu.cn":{ _name:"东莞理工学院",
     jwb:[ { title:"教务部通知公告",
         docs:"https://docs.rsshub.app/routes/university",
         source:[ "/tzgg/" ],
