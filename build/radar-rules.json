@@ -45026,6 +45026,27 @@
       }
     ]
   },
+  "sxhm.com": {
+    "_name": "Shaanxi History Museum",
+    "www": [
+      {
+        "title": "Announcements",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/info/announcement.html"
+        ],
+        "target": "/sxhm/announcement"
+      },
+      {
+        "title": "Special Exhibition",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/Temporary.html"
+        ],
+        "target": "/sxhm/temporary"
+      }
+    ]
+  },
   "syosetu.com": {
     "_name": "Syosetu",
     "noc": [
@@ -49688,6 +49709,15 @@
         "target": "/xueqiu/hots"
       },
       {
+        "title": "股票信息",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/S/:id",
+          "/s/:id"
+        ],
+        "target": "/xueqiu/stock_info/:id"
+      },
+      {
         "title": "用户动态",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
@@ -49702,15 +49732,6 @@
           "/S/:id"
         ],
         "target": "/xueqiu/stock_comments/:id"
-      },
-      {
-        "title": "股票信息",
-        "docs": "https://docs.rsshub.app/routes/finance",
-        "source": [
-          "/S/:id",
-          "/s/:id"
-        ],
-        "target": "/xueqiu/stock_info/:id"
       },
       {
         "title": "今日话题",
